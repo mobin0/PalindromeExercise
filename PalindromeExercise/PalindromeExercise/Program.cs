@@ -6,7 +6,9 @@ namespace PalindromeExercise
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            WordSmith w = new WordSmith();
+
+            Console.WriteLine(w.isAPalindrome("Malayalam"));
         }
     }
 }
